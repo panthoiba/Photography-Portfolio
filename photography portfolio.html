@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photography Portfolio</title>
     <style>
-        /* General Styling */
+        
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -23,7 +23,7 @@
             padding: 20px;
         }
 
-        /* Gallery Buttons */
+        
         .filters {
             margin-bottom: 30px;
         }
@@ -50,7 +50,7 @@
             color: rgb(0, 0, 0);
         }
 
-        /* Gallery Styling */
+        
         .gallery-container {
             display: flex;
             flex-wrap: wrap;
@@ -70,7 +70,7 @@
             transform: scale(1.1);
         }
 
-        /* Lightbox */
+        
         .lightbox {
             display: none;
             position: fixed;
@@ -97,7 +97,7 @@
             cursor: pointer;
         }
 
-        /* Contact Form */
+        
         form {
             display: flex;
             flex-direction: column;
@@ -167,7 +167,7 @@
     </section>
 
     <script>
-        // Lightbox Functionality
+        
         function openLightbox(image) {
             document.getElementById('lightbox').style.display = 'flex';
             document.getElementById('lightbox-img').src = image.src;
@@ -177,7 +177,7 @@
             document.getElementById('lightbox').style.display = 'none';
         }
 
-        // Filter Images
+        
         function filterImages(category, event) {
             let images = document.querySelectorAll('.image');
             images.forEach(img => {
@@ -188,15 +188,15 @@
                 }
             });
 
-            // Remove "active" class from all buttons
+            
             let buttons = document.querySelectorAll('.filters button');
             buttons.forEach(btn => btn.classList.remove('active'));
 
-            // Add "active" class to the clicked button
+            
             event.target.classList.add('active');
         }
 
-        // Form Validation and Submission
+        
         document.getElementById('contactForm').addEventListener('submit', function(event) {
             event.preventDefault();
             let name = document.getElementById('name').value.trim();
@@ -214,3 +214,4 @@
     </script>
 </body>
 </html>
+
