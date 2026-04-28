@@ -1,4 +1,4 @@
-# 📷 Lens & Light — Photography Portfolio
+Photography Portfolio
 
 A clean, modern, dark-themed photography portfolio website built with pure HTML, CSS, and JavaScript. No frameworks, no dependencies — just fast, elegant, production-ready code.
 
