@@ -9,7 +9,7 @@ A clean, modern, dark-themed photography portfolio website built with pure HTML,
 
 ---
 
-## ✨ Features
+## Features
 
 - **Hero Section** — Full-viewport typography with animated floating orbs and grain texture
 - **Custom Cursor** — Smooth lagging ring cursor with gold dot (auto-disabled on mobile)
@@ -22,7 +22,7 @@ A clean, modern, dark-themed photography portfolio website built with pure HTML,
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```
 portfolio/
@@ -39,7 +39,7 @@ portfolio/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -75,7 +75,7 @@ python -m http.server 8080
 
 ---
 
-## 🎨 Customisation
+## Customisation
 
 ### Personal details
 Edit `index.html` to update:
@@ -121,7 +121,7 @@ In `index.html`, duplicate a `.gallery-item` block and adjust the `src`, `alt`, 
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 This is a static site — deploy anywhere for free:
 
@@ -133,7 +133,7 @@ This is a static site — deploy anywhere for free:
 
 ---
 
-## 📬 Contact Form
+## Contact Form
 
 The form currently runs client-side only with a simulated async delay. To make it functional, connect it to a backend service:
 
@@ -143,7 +143,7 @@ The form currently runs client-side only with a simulated async delay. To make i
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
